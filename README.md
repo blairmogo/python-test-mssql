@@ -18,10 +18,17 @@ Move the config.yaml.template file to config.yaml and edit the fields with the n
 
 ## Running the Tool
 
-With all the pre-reqs in place, should be as easy as running the test client with no arguments:
+With all the pre-reqs in place, should be as easy as running the test client with no arguments. If successful, the output should be similar:
 
 ```bash
 python test_client.py
+
+SERVER VERSION:
+
+Microsoft SQL Server 2019 (RTM-CU28) (KB5039747) - 15.0.4385.2 (X64)
+	Jul 25 2024 21:32:40
+	Copyright (C) 2019 Microsoft Corporation
+	Enterprise Edition (64-bit) on Windows Server 2019 Standard 10.0 <X64> (Build 17763: ) (Hypervisor)
 ```
 
 You can modify the query in the script itself if you want to test a more complex query. 
